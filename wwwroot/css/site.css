@@ -1,71 +1,163 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-image: url(../images/bg.png);
 }
 
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+::-webkit-scrollbar {
+
+width: 0px;
+
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+@font-face {
+  font-family: 'Futura';
+  src: url('../fonts/FuturaNewBookReg.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+@font-face {
+  font-family: 'Futura Demi';
+  src: url('../fonts/FuturaNewDemi.otf');
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.header{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	flex-direction: column;
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
+.header-first{
+	display: flex;
+	justify-content: center;
+	height: 110px;
+	width: 100%;
+	align-items: flex-end;
 }
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+.header-strip-left, .header-strip-right{
+	display: flex;
+	background-color: #fff;
+	align-items: center;
+	height: 2px;
+	width: 100%;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+.header-logo{
+	display: flex;
+	align-items: center;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+.header-second{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 70px;
+}
+
+.header-menu{
+	width: calc(100vw - 500px);
+	max-width: 1100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 100%;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.header-menu-item{
+	position: relative;
+	cursor: pointer;
+}
+
+.header-menu-item a{
+	font-family: 'Futura';
+}
+.header-menu-item::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	left: 0;
+	bottom: -3px;
+	background: #fff;
+	transition: transform .5s,-webkit-transform .5s;
+}
+
+.header-menu-item:not(:hover)::after{
+	transform: scaleX(0);
+}
+ol,ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.start{
+	margin-top: 650px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.start-phrase-of-the-day{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 140px;
+	background: #fff;
+	font-size: 21px;
+	line-height: 43px;
+	word-spacing: 8px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "Futura Demi";
+	letter-spacing: 1.05px;
+}
+
+.start-phrase-of-the-day-text-white{
+	padding: 5px 15px;
+	background: #000;
+	color: #fff;
+}
+
+.default-page{
+	min-height: calc(100vh - 179px);
+	min-height: calc(var(--vh, 1vh)*100 - 179px);
+}
+
+.category {
+	padding: 20px 0 155px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background: #fff;
+}
+
+.category-title{
+	font-family: "Futura";
+	font-weight: 500;
+	font-size: 38px;
+}
+
+.category-list-content {
+	margin-top: 75px;
+	width: 85vw;
+	display: -webkit-box;
+	display: flex;
+	flex-wrap: wrap;
+	margin: -35px -17.5px;
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AskAlexandria\\Desktop\\XCOEM\\XCOEM.csproj",
+      "projectUniqueName": "C:\\Users\\AskAlexandria\\XCOEM\\XCOEM.csproj",
       "projectName": "XCOEM",
-      "projectPath": "C:\\Users\\AskAlexandria\\Desktop\\XCOEM\\XCOEM.csproj",
+      "projectPath": "C:\\Users\\AskAlexandria\\XCOEM\\XCOEM.csproj",
       "packagesPath": "C:\\Users\\AskAlexandria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AskAlexandria\\Desktop\\XCOEM\\obj\\",
+      "outputPath": "C:\\Users\\AskAlexandria\\XCOEM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AskAlexandria\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -166,3 +166,170 @@ a{
 	flex-wrap: wrap;
 	margin: -35px -17.5px;
 }
+
+.footer{
+	height: 340px;
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	padding: 40px;
+	background: #0d0d0e;
+	color: #fff;
+}
+
+.footer-content{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	filter: sepia(100%) saturate(10%) hue-rotate(190deg) brightness(130%);
+}
+
+.footer-menu{
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+	line-height: 100%;
+	color: #c5c5c5;
+}
+
+.footer-menu-item{
+	position: relative;
+}
+
+.footer-menu-item::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	left: 0;
+	bottom: -3px;
+	background: #fff;
+	transition: transform .5s,-webkit-transform .5s;
+}
+
+.footer-menu-item:not(:hover)::after{
+	transform: scaleX(0);
+}
+
+.footer-logo{
+	position: absolute;
+	top: 80px;
+	height: 40px;
+}
+
+.footer-socials{
+	position: absolute;
+	display: flex;
+	top: 80px;
+	left: 140px;
+}
+
+.footer-icons-instagram{
+	fill: #888;
+}
+
+.footer-copyright{
+	position: absolute;
+	top: 171px;
+	font-size: 18px;
+	line-height: 100%;
+	color: #c9c9c9;
+}
+
+.footer-email{
+	position: absolute;
+	align-items: flex-end;
+	right: 210px;
+	bottom: 143px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-email-prefix{
+	font-size: 13px;
+	font-weight: 400;
+	color: #616060;
+	text-transform: uppercase;
+}
+
+.footer-email-content{
+	font-size: 18px;
+	color: #bfbfbf;
+}
+
+.footer-working{
+	position: absolute;
+	align-items: flex-end;
+	right: 210px;
+	bottom: 70px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-working-prefix{
+	font-size: 13px;
+	font-weight: 400;
+	color: #616060;
+	text-transform: uppercase;
+}
+
+.footer-working-content{
+	margin-top: 2px;
+	font-size: 18px;
+	color: #bfbfbf;
+}
+
+.footer-payment-options{
+	position: absolute;
+	right: 0;
+	bottom: 65px;
+}
+
+.footer-payment-options-prefix{
+	align-items: flex-end;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	font-weight: 400;
+	color: #616060;
+	text-transform: uppercase;
+}
+
+.footer-payment-options-list{
+	flex-wrap: wrap;
+	width: 155px;
+	align-items: flex-end;
+	justify-content: space-between;
+	display: flex;
+}
+
+.footer-payment-options-visa{
+	height: 17px;
+}
+
+.footer-payment-options-liqpay{
+	height: 17px;
+}
+
+.footer-payment-options-mastercard{
+	height: 64px;
+	margin-top: 20px;
+}
+
+.footer-payment-options-privat{
+	height: 64px;
+	margin-top: 20px;
+}
+
+.footer-delivery{
+	position: absolute;
+	right: 0;
+	bottom: -5px;
+	font-size: 17px;
+	text-align: right;
+	color: #676767;
+}

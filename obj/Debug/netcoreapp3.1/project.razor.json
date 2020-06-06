@@ -20526,6 +20526,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\Tshirts.cshtml",
+      "TargetPath": "Views\\Home\\Tshirts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

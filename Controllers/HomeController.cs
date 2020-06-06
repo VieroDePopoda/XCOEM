@@ -23,7 +23,7 @@ namespace XCOEM.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Tshirts()
         {
             return View();
         }

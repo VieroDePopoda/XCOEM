@@ -34,3 +34,4 @@ C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.dll
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.pdb
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.genruntimeconfig.cache
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.csproj.CopyComplete
+C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\Tshirts.cshtml.g.cs

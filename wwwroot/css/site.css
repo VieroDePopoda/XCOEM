@@ -24,6 +24,7 @@ button{
 	outline: none;
 	background: none;
 	cursor: pointer;
+	border: 0px solid transparent;
 }
 
 .header{

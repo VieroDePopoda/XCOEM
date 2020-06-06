@@ -20526,8 +20526,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\memes.cshtml",
+      "TargetPath": "Views\\Home\\memes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\Tshirts.cshtml",
       "TargetPath": "Views\\Home\\Tshirts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\shirts.cshtml",
+      "TargetPath": "Views\\Home\\shirts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\polo.cshtml",
+      "TargetPath": "Views\\Home\\polo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\faq.cshtml",
+      "TargetPath": "Views\\Home\\faq.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\hats.cshtml",
+      "TargetPath": "Views\\Home\\hats.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20536,13 +20561,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\bags.cshtml",
+      "TargetPath": "Views\\Home\\bags.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\sweatshirts.cshtml",
+      "TargetPath": "Views\\Home\\sweatshirts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\souvenirs.cshtml",
+      "TargetPath": "Views\\Home\\souvenirs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\Home\\hoodies.cshtml",
+      "TargetPath": "Views\\Home\\hoodies.cshtml",
       "FileKind": "mvc"
     },
     {

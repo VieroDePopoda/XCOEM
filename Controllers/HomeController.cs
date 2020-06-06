@@ -23,7 +23,52 @@ namespace XCOEM.Controllers
             return View();
         }
 
-        public IActionResult Tshirts()
+        public IActionResult tshirts()
+        {
+            return View();
+        }
+
+        public IActionResult sweatshirts()
+        {
+            return View();
+        }
+
+        public IActionResult faq()
+        {
+            return View();
+        }
+
+        public IActionResult hats()
+        {
+            return View();
+        }
+
+        public IActionResult hoodies()
+        {
+            return View();
+        }
+
+        public IActionResult memes()
+        {
+            return View();
+        }
+
+        public IActionResult polo()
+        {
+            return View();
+        }
+
+        public IActionResult shirts()
+        {
+            return View();
+        }
+
+        public IActionResult souvenirs()
+        {
+            return View();
+        }
+
+        public IActionResult bags()
         {
             return View();
         }

@@ -19,7 +19,6 @@ C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.RazorAssemblyInfo.cs
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.TagHelpers.input.cache
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.TagHelpers.output.cache
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.RazorCoreGenerate.cache
-C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -35,12 +34,4 @@ C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.pdb
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.genruntimeconfig.cache
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\XCOEM.csproj.CopyComplete
 C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\Tshirts.cshtml.g.cs
-C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\sweatshirts.cshtml.g.cs
-C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\faq.cshtml.g.cs
-C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\hats.cshtml.g.cs
-C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\hoodies.cshtml.g.cs
-C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\memes.cshtml.g.cs
-C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\polo.cshtml.g.cs
-C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\shirts.cshtml.g.cs
-C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\souvenirs.cshtml.g.cs
-C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\Home\bags.cshtml.g.cs
+C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\category\main.cshtml.g.cs

@@ -1,0 +1,125 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if(ViewBag.isCategory == false)
+{
+	<section class="start default-page">
+		<div class="start-slider"></div>
+			<div class="start-phrase-of-the-day">
+				Есть только&nbsp;
+				<span class="start-phrase-of-the-day-text-white">белый</span>
+				&nbsp;и черный.
+				Остальное - оттенки.
+			</div>
+	</section>
+}
+else{
+	<section class="category default-page">
+		<h2 class="category-title">Футболки</h2>
+		<div class="category-list">
+			<div class="category-list-content">
+				<a class="category-product" href="">
+					<div class="category-product-cover">
+						<picture>
+							<img src="~/images/product/1.png" class="category-product-image">
+						</picture>
+						<div class="category-product-blackout"></div>
+						<div class="price category-product-price">
+							<div class="price-current">
+								<span>1 750 RUB</span>
+							</div>
+						</div>
+						<button class="category-product-more">
+							<span>Подробнее</span>
+						</button>
+					</div>
+					<button class="category-product-name">
+						<span>B.O.M.J Black</span>
+						<span>B.O.M.J Black</span>
+					</button>
+				</a>
+				<a class="category-product" href="">
+					<div class="category-product-cover">
+						<picture>
+							<img src="~/images/product/1.png" class="category-product-image">
+						</picture>
+						<div class="category-product-blackout"></div>
+						<div class="price category-product-price">
+							<div class="price-current">
+								<span>1 750 RUB</span>
+							</div>
+						</div>
+						<button class="category-product-more">
+							<span>Подробнее</span>
+						</button>
+					</div>
+					<button class="category-product-name">
+						<span>B.O.M.J Black</span>
+						<span>B.O.M.J Black</span>
+					</button>
+				</a>
+				<a class="category-product" href="">
+					<div class="category-product-cover">
+						<picture>
+							<img src="~/images/product/1.png" class="category-product-image">
+						</picture>
+						<div class="category-product-blackout"></div>
+						<div class="price category-product-price">
+							<div class="price-current">
+								<span>1 750 RUB</span>
+							</div>
+						</div>
+						<button class="category-product-more">
+							<span>Подробнее</span>
+						</button>
+					</div>
+					<button class="category-product-name">
+						<span>B.O.M.J Black</span>
+						<span>B.O.M.J Black</span>
+					</button>
+				</a>
+				<a class="category-product" href="">
+					<div class="category-product-cover">
+						<picture>
+							<img src="~/images/product/1.png" class="category-product-image">
+						</picture>
+						<div class="category-product-blackout"></div>
+						<div class="price category-product-price">
+							<div class="price-current">
+								<span>1 750 RUB</span>
+							</div>
+						</div>
+						<button class="category-product-more">
+							<span>Подробнее</span>
+						</button>
+					</div>
+					<button class="category-product-name">
+						<span>B.O.M.J Black</span>
+						<span>B.O.M.J Black</span>
+					</button>
+				</a>
+				<a class="category-product" href="">
+					<div class="category-product-cover">
+						<picture>
+							<img src="~/images/product/1.png" class="category-product-image">
+						</picture>
+						<div class="category-product-blackout"></div>
+						<div class="price category-product-price">
+							<div class="price-current">
+								<span>1 750 RUB</span>
+							</div>
+						</div>
+						<button class="category-product-more">
+							<span>Подробнее</span>
+						</button>
+					</div>
+					<button class="category-product-name">
+						<span>B.O.M.J Black</span>
+						<span>B.O.M.J Black</span>
+					</button>
+				</a>
+			</div>
+		</div>
+		</section>
+}

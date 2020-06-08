@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Http;
 using System.Diagnostics;
+using Microsoft.EntityFrameworkCore;
+using XCOEM.Models;
 
 namespace XCOEM
 {
@@ -25,6 +27,11 @@ namespace XCOEM
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // получаем строку подключения из файла конфигурации
+            string connection = Configuration.GetConnectionString("DefaultConnection");
+            // добавляем контекст в качестве сервиса в приложение
+            services.AddDbContext<ProductContext>(options =>
+                options.UseNpgsql(connection));
             services.AddControllersWithViews();
         }
 

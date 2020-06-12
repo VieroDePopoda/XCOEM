@@ -11,11 +11,11 @@ namespace XCOEM.Controllers
 {
     public class Category : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ProductsContext _context;
 
-        public Category(ILogger<HomeController> logger)
+        public Category(ProductsContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public IActionResult Main()
@@ -35,6 +35,7 @@ namespace XCOEM.Controllers
         public IActionResult Tshirts()
         {
             ViewBag.isCategory = true;
+            ViewBag.product = _context.Products.Where(x => x.Category == "Футболки").OrderBy(x => x.Id).ToList();
             return View("Main");
         }
 

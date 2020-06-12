@@ -30,8 +30,9 @@ namespace XCOEM
             // получаем строку подключения из файла конфигурации
             string connection = Configuration.GetConnectionString("DefaultConnection");
             // добавляем контекст в качестве сервиса в приложение
-            services.AddDbContext<ProductContext>(options =>
-                options.UseNpgsql(connection));
+            services.AddEntityFrameworkNpgsql().AddDbContext<ProductsContext>(optionsAction: opt => opt.UseNpgsql(Configuration.GetConnectionString(name: "DefaultConnection")));
+            /* services.AddDbContext<ProductContext>(options =>
+                options.UseNpgsql(connection)); */
             services.AddControllersWithViews();
         }
 

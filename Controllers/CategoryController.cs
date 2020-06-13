@@ -28,6 +28,8 @@ namespace XCOEM.Controllers
         public IActionResult Polo()
         {
             ViewBag.isCategory = true;
+            ViewBag.category = "Поло";
+            ViewBag.product = _context.Products.Where(x => x.Category == "Поло").OrderBy(x => x.Id).ToList();
             return View("Main");
         }
         
@@ -35,6 +37,7 @@ namespace XCOEM.Controllers
         public IActionResult Tshirts()
         {
             ViewBag.isCategory = true;
+            ViewBag.category = "Футболки";
             ViewBag.product = _context.Products.Where(x => x.Category == "Футболки").OrderBy(x => x.Id).ToList();
             return View("Main");
         }
@@ -43,6 +46,8 @@ namespace XCOEM.Controllers
         public IActionResult Sweatshirts()
         {
             ViewBag.isCategory = true;
+            ViewBag.category = "Свитшоты";
+            ViewBag.product = _context.Products.Where(x => x.Category == "Свитшоты").OrderBy(x => x.Id).ToList();
             return View("Main");
         }
 
@@ -50,6 +55,8 @@ namespace XCOEM.Controllers
         public IActionResult Hoodies()
         {
             ViewBag.isCategory = true;
+            ViewBag.category = "Худи";
+            ViewBag.product = _context.Products.Where(x => x.Category == "Худи").OrderBy(x => x.Id).ToList();
             return View("Main");
         }
 
@@ -57,6 +64,8 @@ namespace XCOEM.Controllers
         public IActionResult Shirts()
         {
             ViewBag.isCategory = true;
+            ViewBag.category = "Рубашки";
+            ViewBag.product = _context.Products.Where(x => x.Category == "Рубашки").OrderBy(x => x.Id).ToList();
             return View("Main");
         }
 
@@ -64,6 +73,8 @@ namespace XCOEM.Controllers
         public IActionResult Hats()
         {
             ViewBag.isCategory = true;
+            ViewBag.category = "Шапки";
+            ViewBag.product = _context.Products.Where(x => x.Category == "Шапки").OrderBy(x => x.Id).ToList();
             return View("Main");
         }
 
@@ -71,6 +82,8 @@ namespace XCOEM.Controllers
         public IActionResult Bags()
         {
             ViewBag.isCategory = true;
+            ViewBag.category = "Рюкзаки";
+            ViewBag.product = _context.Products.Where(x => x.Category == "Рюкзаки").OrderBy(x => x.Id).ToList();
             return View("Main");
         }
 
@@ -78,6 +91,8 @@ namespace XCOEM.Controllers
         public IActionResult Souvenirs()
         {
             ViewBag.isCategory = true;
+            ViewBag.category = "Сувениры";
+            ViewBag.product = _context.Products.Where(x => x.Category == "Сувениры").OrderBy(x => x.Id).ToList();
             return View("Main");
         }
 
@@ -85,6 +100,8 @@ namespace XCOEM.Controllers
         public IActionResult Memes()
         {
             ViewBag.isCategory = true;
+            ViewBag.category = "Memes";
+            ViewBag.product = _context.Products.Where(x => x.Category == "Memes").OrderBy(x => x.Id).ToList();
             return View("Main");
         }
 
@@ -92,6 +109,7 @@ namespace XCOEM.Controllers
         public IActionResult FAQ()
         {
             ViewBag.isCategory = true;
+            ViewBag.category = "FAQ";
             return View("Main");
         }
     }

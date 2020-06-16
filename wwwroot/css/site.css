@@ -27,6 +27,15 @@ button{
 	border: 0px solid transparent;
 }
 
+input{
+	background: inherit;
+	outline: none;
+	border: none;
+	border-radius: 0;
+	font-size: 18px;
+	font-weight: 500;
+}
+
 .header{
 	display: flex;
 	justify-content: center;
@@ -514,4 +523,226 @@ a{
 	background: #000;
 	color: #fff;
 	transition: opacity .5s;
+}
+
+.modals{
+	transition: opacity 1.2s;
+}
+
+.modals-sign-in{
+	position: absolute;
+}
+
+.modals-modal{
+	position: absolute;
+	z-index: 1000;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	pointer-events: auto;
+}
+
+.modals-sign-in-inside.modals-modal-inside{
+	height: 100%;
+}
+
+.modals-sign-in-inside{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: auto;
+}
+
+.modals-modal-blackout{
+	position: fixed;
+	width: 100%;
+	min-width: 100vh;
+	height: 100%;
+	min-height: 100vh;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	background: rgba(0,0,0,.43);
+}
+
+.modals-modal-close-area{
+	position: absolute;
+	width: 100%;
+	min-width: 100vh;
+	height: 100%;
+	min-height: 100vh;
+}
+
+.modals-sign-in-tile.modals-modal-tile{
+	top: 179px;
+	padding: 30px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 366px;
+	max-width: 90vw;
+	margin: 0;
+	right: 5vw;
+}
+
+.modals-modal-tile{
+	border-radius: 20px;
+	background: #fff;
+}
+
+.modals-sign-in-arrow{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: -12px;
+	transform: rotate(45deg);
+	border-radius: 5px;
+	background: #fff;
+}
+
+.modals-sign-in-classic{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.modals-sign-in-classic-field:first-child{
+	margin-bottom: 20px
+}
+
+.modals-sign-in-classic-field:nth-child(2){
+	margin-bottom: 15px;
+}
+
+.modals-sign-in-classic-field{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.modals-sign-in-classic-field-label{
+	font-size: 15px;
+	line-height: 25px;
+	color: #818d92;
+	text-transform: uppercase;
+}
+
+.modals-sign-in-classic-field-input{
+	width: 100%;
+	height: 36px;
+	padding: 0 15px;
+	border-radius: 100px;
+	background: #f4f6f8;
+}
+
+.modals-sign-in-classic-remember{
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.modals-sign-in-classic-remember-input{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.modals-sign-in-classic-remember-label{
+	position: relative;
+	margin-left: 35px;
+	font-size: 15px;
+	line-height: 25px;
+	color: #818d92;
+	cursor: pointer;
+}
+
+.modals-sign-in-classic-remember-input:not(:checked) + .modals-sign-in-classic-remember-label .modals-sign-in-classic-remember-label-selector{
+	border: 1px solid #d8dee6;
+}
+
+.modals-sign-in-classic-remember-label-selector{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: calc(100% + 10px);
+	top: 1px;
+	background: #fff;
+	transition: background .15s, border-color .15s;
+}
+
+.modals-sign-in-classic-remember-input:not(:checked) + .modals-sign-in-classic-remember-label .modals-sign-in-classic-remember-label-selector::before{
+	opacity: 0;
+}
+
+.modals-sign-in-classic-remember-label-selector::before{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 5px;
+	height: 10px;
+	left: 8px;
+	top: 3px;
+	border: solid #fff;
+	border-width: 0 3px 3px 0;
+	transform: rotate(45deg);
+	transition: opacity .15s;
+}
+
+.modals-sign-in-classic-forgot-password{
+	margin-left: auto;
+	font-size: 15px;
+	line-height: 100%;
+	color: #818d92;
+	border-bottom: 1px dashed #818d92;
+	cursor: pointer;
+}
+
+.modals-sign-in-classic-sign-in{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 165px;
+	height: 40px;
+	margin-top: 30px;
+	border-radius: 100px;
+	background: #000;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.modals-sign-in-classic-sign-in > span{
+	line-height: 1em;
+}
+
+.modals-sign-in-sign-up{
+	margin-top: 25px;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.modals-modal-close{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 20px;
+	top: 20px;
+	fill: #808392;
+	cursor: pointer;
 }

@@ -83,3 +83,4 @@ C:\Users\AskAlexandria\XCOEM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Option
 C:\Users\AskAlexandria\XCOEM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\AskAlexandria\XCOEM\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\AskAlexandria\XCOEM\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\AskAlexandria\XCOEM\obj\Debug\netcoreapp3.1\Razor\Views\category\modal-registration.cshtml.g.cs

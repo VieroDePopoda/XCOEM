@@ -20531,6 +20531,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\category\\modal-registration.cshtml",
+      "TargetPath": "Views\\category\\modal-registration.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\AskAlexandria\\XCOEM\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
